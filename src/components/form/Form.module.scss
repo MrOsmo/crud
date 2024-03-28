@@ -1,0 +1,28 @@
+.form {
+  margin-left: 30px;
+  margin-top: 50px;
+
+
+  .container {
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 10px;
+
+      .roles {
+        display: flex;
+      }
+
+      .add_button {
+        font-size: 30px;
+        border-radius: 5px;
+        padding: 6px 15px;
+        color: rgb(101, 151, 195);
+        background-color: lightblue;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+.list {
+
+  .container {
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 25px;
+      flex-wrap: wrap;
+      gap: 30px;
+
+      .user_list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 2px solid #fff;
+        width: 350px;
+        padding: 20px 0 150px 0;
+
+        .name {
+          font-size: 25px;
+          color: #fff;
+        }
+
+        h1 {
+          font-size: 40px;
+          color: green;
+        }
+
+        .email {
+          font-size: 10px;
+        }
+
+        .buttons {
+          display: flex;
+          gap: 10px;
+          margin-top: 15px;
+
+          button {
+            background-color: green;
+            padding: 5px 15px;
+            cursor: pointer;
+            border: none;
+          }
+
+          .delete_button {
+            background-color: red;
+
+          }
+        }
+
+        .information {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+
+          .time {
+            position: relative;
+            top: 120px;
+          }
+        }
+
+        .form {
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 10px;
+
+          .roles {
+            display: flex;
+          }
+
+          .cancel_button {
+            background-color: red;
+            padding: 5px 10px;
+            cursor: pointer;
+            border: none;
+          }
+
+          .save_button {
+            background-color: green;
+            padding: 5px 15px;
+            cursor: pointer;
+            border: none;
+          }
+
+          .edit_buttons {
+            display: flex;
+            gap: 15px;
+          }
+        }
+      }
+    }
+  }
+}
